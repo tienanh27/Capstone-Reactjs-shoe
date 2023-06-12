@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+html,
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+.heading-gradient {
+  background: linear-gradient(180deg, #f21299 0%, #1b02b5 100%);
+  padding: 12px 29px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  color: #fff;
+  text-align: start;
+}
+
+.section-top {
+  margin-top: 50px;
+}

@@ -1,26 +1,14 @@
 import axiosClient from "./axiosClient";
 
 const productApi = {
-  async getAll(data) {
+  async getAll() {
     const url = `/api/Product`;
-    return axiosClient.get(url,data);
+    return axiosClient.get(url);
   },
-  // async login(data){
-  //   const url = `/api/Users/signin`
-  //   return axiosClient.post(url,data)
-  // },
-  // async update(data){
-  //   const url = `/api/Users/updateProfile`
-  //   return axiosClient.post(url,data)
-  // },
-  // async getInfo(){
-  //   const  url = `/api/Users/getProfile`
-  //   return axiosClient.post(url)
-  // },
-  // async facebookLogin(data) {
-  //   const url = "/api/Users/facebooklogin"
-  //   return axiosClient.post(url,data)
-  // }
+  async getProductById(id) {
+    const url = `/api/Product/getbyid?id=` + id;
+    return axiosClient.get(url);
+  },
 };
 
 export default productApi;

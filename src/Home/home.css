@@ -59,7 +59,9 @@
   font-weight: 300;
   width: 30%;
 }
-
+.carousel__caption h2 {
+  font-size: 40px;
+}
 .carousel__icon {
   width: 45px;
 }
@@ -78,7 +80,7 @@
 }
 .carousel__btn-buy {
   background: #f8b653;
-  padding: 9px 36px 14px;
+  padding: 10px 36px 12px;
   text-decoration: none;
   font-size: 20px;
   color: #fff;
@@ -95,10 +97,6 @@
 .carousel-indicators [data-bs-target].active {
   background-color: #00000021;
 }
-.carousel__container {
-  padding: 0 65px 0 80px;
-}
-
 .carousel__image {
   height: 383px;
   width: 689px;
@@ -108,4 +106,57 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.product-feature__heading {
+  width: 700px;
+}
+
+.product__card {
+  background: #f8f8f8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: block;
+  text-align: start;
+  text-decoration: none;
+  color: #000;
+  font-size: 24px;
+}
+
+.product__card--image {
+  width: 100%;
+  object-fit: cover;
+  transition: all 0.5s;
+  padding: 0 20px;
+}
+
+.product__card:hover .product__card--image {
+  transform: scale(1.1);
+}
+
+.product__card--title {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 300;
+  height: 56px;
+  overflow: hidden;
+}
+.product__card--desc {
+  font-size: 20px;
+  color: #cbc9c9;
+  line-height: 24px;
+  font-weight: 300;
+  height: 72px;
+  overflow: hidden;
+}
+.product__card--btn {
+  font-weight: 400;
+  padding: 17px 32px;
+  background: #9de167;
+  line-height: 29px;
+}
+.product__card--price {
+  font-weight: 600;
+  background: #dedddc;
+  text-align: center;
+  line-height: 63px;
 }
