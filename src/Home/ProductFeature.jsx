@@ -9,7 +9,7 @@ const ProductFeature = () => {
   if (fetching) return <div className="h-25">Loading...</div>;
 
   return (
-    <section className="section-top">
+    <section className="section-top product-feature">
       <h3 className="heading-gradient product-feature__heading">
         Product Feature
       </h3>

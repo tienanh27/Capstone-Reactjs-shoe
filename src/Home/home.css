@@ -108,6 +108,10 @@
   object-fit: cover;
 }
 
+.product-feature {
+  background-color: #fffcfc;
+  padding: 40px 0 90px 0;
+}
 .product-feature__heading {
   width: 700px;
 }
@@ -159,4 +163,25 @@
   background: #dedddc;
   text-align: center;
   line-height: 63px;
+}
+
+footer {
+  background-color: #fff;
+}
+.footer__col:not(:first-child) {
+  border-left: 1px solid #dedddc;
+}
+
+.footer__col--title {
+  font-size: 20px;
+  text-transform: uppercase;
+  line-height: 24px;
+  font-weight: 700;
+}
+.footer__col--subtitle {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #000;
 }

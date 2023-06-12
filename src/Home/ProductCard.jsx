@@ -10,7 +10,9 @@ const ProductCard = ({ item }) => {
           alt={item?.name}
           className="product__card--image"
         />
-        <h6 className="product__card--title">{item?.name}</h6>
+        <h6 className="product__card--title" title={item?.name}>
+          {item?.name}
+        </h6>
         <p className="product__card--desc">{item?.shortDescription}</p>
       </div>
       <div className="d-flex">
