@@ -1,0 +1,111 @@
+.header__top {
+  padding: 6px 24px;
+  background: #000000;
+}
+
+.header__top--logo {
+  width: 116px;
+}
+
+.header__top--search,
+.header__top--cart {
+  color: #ffffff;
+  font-size: 30px;
+  background: transparent;
+  outline: none;
+  border: none;
+  font-weight: 300;
+  line-height: 36px;
+}
+
+.header__top--search > img,
+.header__top--cart > img {
+  width: 31px;
+}
+
+.header__top--button {
+  background: transparent;
+  color: #ffffff;
+  outline: none;
+  border: none;
+  font-weight: 300;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.header__navbar {
+  padding: 0 24px;
+}
+
+.header__navbar--link {
+  color: #000000;
+  font-weight: 400;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 12px 0;
+  opacity: 0.7;
+}
+
+.header__navbar--link-active {
+  border-bottom: 1px solid #000;
+  opacity: 1;
+}
+
+.carousel-item {
+  background: #fff;
+}
+.carousel__caption {
+  color: #000;
+  font-weight: 300;
+  width: 30%;
+}
+
+.carousel__icon {
+  width: 45px;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  width: 45px;
+}
+.carousel-control-prev {
+  left: 10px;
+}
+.carousel-control-next {
+  right: 10px;
+}
+.carousel__icon--prev {
+  transform: rotate(180deg);
+}
+.carousel__btn-buy {
+  background: #f8b653;
+  padding: 9px 36px 14px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+}
+.carousel-indicators [data-bs-target] {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background-color: #fff;
+  outline: 2px solid #00000021;
+  line-height: 15px;
+  border: 0;
+}
+.carousel-indicators [data-bs-target].active {
+  background-color: #00000021;
+}
+.carousel__container {
+  padding: 0 65px 0 80px;
+}
+
+.carousel__image {
+  height: 383px;
+  width: 689px;
+}
+
+.carousel__image > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
