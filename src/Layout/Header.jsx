@@ -1,4 +1,5 @@
 import React from "react";
+import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 
 const menus = [
@@ -9,9 +10,9 @@ const menus = [
   { name: "Sport", href: "#" },
 ];
 
-// ❤️♡
-
 const Header = () => {
+  const user = useSelector((state) => state.auth.user);
+
   return (
     <header>
       <div className="header__top">
@@ -29,8 +30,17 @@ const Header = () => {
               <img src="./images/icon-cart.png" alt="" />
               <span>(1)</span>
             </button>
-            <Link to="/login" className="header__top--button">Login</Link>
-            <Link to="/register" className="header__top--button">Register</Link>
+            {!user && (
+              <Link to="/login" className="header__top--button">
+                Login
+              </Link>
+            )}
+            {!user && (
+              <Link to="/register" className="header__top--button">
+                Register
+              </Link>
+            )}
+            {user && <span>Hello, {user?.name}</span>}
           </div>
         </div>
       </div>
@@ -38,7 +48,13 @@ const Header = () => {
         {menus.map((menu) => {
           const isActive = menu.name === "Home";
           return (
-            <a key={menu.name} className={`header__navbar--link ${isActive && "header__navbar--link-active"}`} href={menu.href}>
+            <a
+              key={menu.name}
+              className={`header__navbar--link ${
+                isActive && "header__navbar--link-active"
+              }`}
+              href={menu.href}
+            >
               {menu.name}
             </a>
           );

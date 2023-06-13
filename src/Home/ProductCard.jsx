@@ -1,10 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const ProductCard = ({ item }) => {
+const ProductCard = ({ item, isFavorites }) => {
   return (
     <Link to={"/product/" + item?.id} className="product__card">
-      <div className="px-3 py-2">
+      <div className="px-3 py-2 position-relative">
+        {!isFavorites ? (
+          <div className="product__card--unlike">♡</div>
+        ) : (
+          <div className="product__card--like">❤️</div>
+        )}
         <img
           src={item?.image}
           alt={item?.name}

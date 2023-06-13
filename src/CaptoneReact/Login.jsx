@@ -7,6 +7,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 import { faEye } from "@fortawesome/free-solid-svg-icons";
 import ReactFacebookLogin from "react-facebook-login";
+import { useDispatch } from "react-redux";
+import { updateUserInfo } from "../store/authSlice";
 
 export default function Login() {
   const navigate = useNavigate();
@@ -16,13 +18,18 @@ export default function Login() {
     watch,
     formState: { errors },
   } = useForm();
+  const dispatch = useDispatch();
+
   const onSubmit = async (data) => {
     try {
       const res = await userApi.login(data);
       if (res.content) {
         localStorage.setItem("token", res.content.accessToken);
         localStorage.setItem("email", res.content.email);
-        navigate("/info");
+        navigate("/");
+
+        const userRes = await userApi.getInfo();
+        dispatch(updateUserInfo(userRes.content));
       }
     } catch (error) {
       console.log(error);
@@ -31,17 +38,17 @@ export default function Login() {
   useEffect(() => {
     let token = localStorage.getItem("token");
     if (token) {
-      navigate("/info");
+      navigate("/");
     }
   }, []);
   const responseFacebook = async (response) => {
     const res = await userApi.facebookLogin({
       facebookToken: response.accessToken,
     });
-    console.log(res)
+    console.log(res);
     localStorage.setItem("token", res.content.accessToken);
-        localStorage.setItem("email", res.content.email);
-        navigate("/info");
+    localStorage.setItem("email", res.content.email);
+    navigate("/info");
   };
   return (
     <div className="Content">
