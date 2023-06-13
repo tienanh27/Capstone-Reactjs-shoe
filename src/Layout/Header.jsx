@@ -1,6 +1,9 @@
 import React from "react";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
+import logo from "../assets/logo.png";
+import iconSearch from "../assets/icon-search.png";
+import iconCart from "../assets/icon-cart.png";
 
 const menus = [
   { name: "Home", href: "#" },
@@ -18,16 +21,16 @@ const Header = () => {
       <div className="header__top">
         <div className="d-flex justify-content-between align-items-center">
           <a className="navbar-brand" href="/">
-            <img src="./images/logo.png" className="header__top--logo" alt="" />
+            <img src={logo} className="header__top--logo" alt="" />
           </a>
 
           <div className="d-flex text-white align-items-center gap-3">
             <button className="d-flex header__top--search align-items-center">
-              <img src="./images/icon-search.png" alt="" />
+              <img src={iconSearch} alt="" />
               <span className="ms-1">Search</span>
             </button>
             <button className="d-flex header__top--cart align-items-center">
-              <img src="./images/icon-cart.png" alt="" />
+              <img src={iconCart} alt="" />
               <span>(1)</span>
             </button>
             {!user && (
