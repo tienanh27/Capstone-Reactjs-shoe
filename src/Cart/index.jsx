@@ -56,7 +56,13 @@ const Cart = () => {
               </thead>
               <tbody>
                 {carts?.map((item) => (
-                  <tr key={item?.product?.id} className="cart__item">
+                  <tr
+                    key={item?.product?.id}
+                    className="cart__item"
+                    onClick={() => {
+                      navigate("/product/" + item?.product?.id);
+                    }}
+                  >
                     {/* <th scope="row">#</th> */}
                     <td>
                       <div>{item?.product?.id}</div>

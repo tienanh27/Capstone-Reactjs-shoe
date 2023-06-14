@@ -24,6 +24,9 @@
   padding: 20px;
   text-align: center;
 }
+.cart__item {
+  cursor: pointer;
+}
 .cart__item > td > div {
   vertical-align: center;
   height: 80px;

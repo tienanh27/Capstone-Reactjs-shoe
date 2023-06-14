@@ -9,7 +9,7 @@ const ProductInfo = ({ product }) => {
   const dispatch = useDispatch();
   const addToCart = () => {
     dispatch(
-      addProductToCarts({ product: product, quantity, size: setSelectedSize })
+      addProductToCarts({ product: product, quantity, size: selectedSize })
     );
     setQuantity(1);
     alert("add success");

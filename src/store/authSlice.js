@@ -17,38 +17,41 @@ export const authSlice = createSlice({
     },
     addProductToCarts: (state, action) => {
       const payload = action.payload;
-      if (
-        state.carts?.findIndex((item) => item.id !== payload.product.id) < 0
-      ) {
+      const shouldAddNew =
+        state.carts?.findIndex(
+          (item) => item.product.id === payload.product.id
+        ) < 0;
+
+      if (shouldAddNew) {
+        console.log(
+          "...state.carts, action.payload :>> ",
+          ...state.carts,
+          action.payload
+        );
         state.carts = [...state.carts, action.payload];
+        return;
       }
       state.carts = state.carts?.map((item) =>
-        item.id !== payload.product.id
+        item.product.id === payload.product.id
           ? { ...item, quantity: payload.quantity + item?.quantity }
           : item
       );
     },
     removeProductById: (state, action) => {
-      console.log(
-        "action.pa :>> ",
-        action.payload,
-        state.carts,
-        state.carts?.filter?.((item) => item.product.id !== action.payload)
-      );
       state.carts = state.carts?.filter?.(
         (item) => item.product.id !== action.payload
       );
     },
     increaseProductQuantity: (state, action) => {
       state.carts = state.carts?.map((item) =>
-        item.id !== action.payload
+        item.product.id === action.payload
           ? { ...item, quantity: item?.quantity + 1 }
           : item
       );
     },
     decreaseProductQuantity: (state, action) => {
       state.carts = state.carts?.map((item) =>
-        item.id !== action.payload
+        item.product.id === action.payload
           ? { ...item, quantity: item?.quantity > 1 ? item?.quantity - 1 : 1 }
           : item
       );
