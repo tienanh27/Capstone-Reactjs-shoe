@@ -1,8 +1,20 @@
 import React, { useState } from "react";
+import { useDispatch } from "react-redux";
+import { addProductToCarts } from "../store/authSlice";
 
 const ProductInfo = ({ product }) => {
   const [quantity, setQuantity] = useState(1);
   const [selectedSize, setSelectedSize] = useState(product?.size?.[0]);
+
+  const dispatch = useDispatch();
+  const addToCart = () => {
+    dispatch(
+      addProductToCarts({ product: product, quantity, size: setSelectedSize })
+    );
+    setQuantity(1);
+    alert("add success");
+  };
+
   return (
     <section className="d-flex container mx-auto px-4 product-detail">
       <div className="product-detail__image">
@@ -41,7 +53,9 @@ const ProductInfo = ({ product }) => {
             -
           </button>
         </div>
-        <button className="product-detail__btn-add">Add to cart</button>
+        <button className="product-detail__btn-add" onClick={addToCart}>
+          Add to cart
+        </button>
       </div>
     </section>
   );

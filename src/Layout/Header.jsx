@@ -15,24 +15,30 @@ const menus = [
 
 const Header = () => {
   const user = useSelector((state) => state.auth.user);
+  const carts = useSelector((state) => state.auth.carts);
 
+  console.log("user :>> ", user);
+  console.log("carts :>> ", carts);
   return (
     <header>
       <div className="header__top">
         <div className="d-flex justify-content-between align-items-center">
-          <a className="navbar-brand" href="/">
+          <Link className="navbar-brand" to="/">
             <img src={logo} className="header__top--logo" alt="" />
-          </a>
+          </Link>
 
           <div className="d-flex text-white align-items-center gap-3">
             <button className="d-flex header__top--search align-items-center">
               <img src={iconSearch} alt="" />
               <span className="ms-1">Search</span>
             </button>
-            <button className="d-flex header__top--cart align-items-center">
+            <Link
+              to="/cart"
+              className="d-flex header__top--cart align-items-center text-decoration-none"
+            >
               <img src={iconCart} alt="" />
-              <span>(1)</span>
-            </button>
+              <span>({carts?.length})</span>
+            </Link>
             {!user && (
               <Link to="/login" className="header__top--button">
                 Login
@@ -43,7 +49,11 @@ const Header = () => {
                 Register
               </Link>
             )}
-            {user && <span>Hello, {user?.name}</span>}
+            {user && (
+              <Link to="/info" className="text-decoration-none text-white">
+                Hello, {user?.name}
+              </Link>
+            )}
           </div>
         </div>
       </div>

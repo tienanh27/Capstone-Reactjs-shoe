@@ -33,6 +33,10 @@ const userApi = {
     const url = "/api/Users/unlike?productId=" + id;
     return axiosClient.get(url);
   },
+  async orderProducts(data) {
+    const url = "/api/Users/order";
+    return axiosClient.post(url, data);
+  },
 };
 
 export default userApi;

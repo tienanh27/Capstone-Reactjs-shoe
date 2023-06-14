@@ -1,37 +1,36 @@
 .Content {
-    position: relative;
-    width: 1280px;
-    height: 688px;
-    background: #FFFCFC;
+  position: relative;
+  width: 1280px;
+  height: 688px;
+  background: #fffcfc;
 }
 
 .TextContent {
-    position: absolute;
-    width: 156px;
-    height: 48px;
-    left: 112px;
-    top: 48px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 48px;
-    color: #000000;
+  position: absolute;
+  width: 156px;
+  height: 48px;
+  left: 112px;
+  top: 48px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  color: #000000;
 }
 
 .Line {
-    position: absolute;
-    width: 1090px;
-    height: 0px;
-    left: 111px;
-    top: 138px;
-    border: 1px solid #DEDDDC;
+  position: absolute;
+  width: 1090px;
+  height: 0px;
+  left: 111px;
+  top: 138px;
+  border: 1px solid #dedddc;
 }
 
 .Pad {
-    padding: 1.2rem;
+  padding: 1.2rem;
 }
-
 
 /*
     Register
@@ -40,43 +39,40 @@
 /* Email input  */
 
 .TextfieldEmail-Register {
-    position: absolute;
-    width: 443px;
-    height: 115px;
-    left: 111px;
-    top: 178px;
-
-
+  position: absolute;
+  width: 443px;
+  height: 115px;
+  left: 111px;
+  top: 178px;
 }
 
 .LabelEmail-Register {
-    position: absolute;
-    left: 0;
-    top: calc(50% - 24px/2 - 26px);
-    bottom: 68.7%;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
-    letter-spacing: 0.135px;
-    color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  left: 0;
+  top: calc(50% - 24px / 2 - 26px);
+  bottom: 68.7%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.135px;
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .InputFieldEmail-Register {
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 16px 12px 14px 14px;
-    width: 443px;
-    height: 54px;
-    background: rgba(33, 33, 33, 0.08);
-    border-radius: 4px 4px 0px 0px;
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 12px 14px 14px;
+  width: 443px;
+  height: 54px;
+  background: rgba(33, 33, 33, 0.08);
+  border-radius: 4px 4px 0px 0px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
 }
 
 /* End Email input  */
@@ -84,39 +80,39 @@
 /* PassWord input */
 
 .LabelPass-Register {
-    position: absolute;
-    height: 24px;
-    left: 8.67%;
-    top: calc(50% - 24px/2 - 26px);
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
-    letter-spacing: 0.135px;
-    color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  height: 24px;
+  left: 8.67%;
+  top: calc(50% - 24px / 2 - 26px);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.135px;
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .InputFieldPass-Register {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 16px 12px 14px 14px;
-    position: absolute;
-    width: 443px;
-    height: 54px;
-    left: 111px;
-    top: 334px;
-    background: rgba(33, 33, 33, 0.08);
-    border-radius: 4px 4px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 12px 14px 14px;
+  position: absolute;
+  width: 443px;
+  height: 54px;
+  left: 111px;
+  top: 334px;
+  background: rgba(33, 33, 33, 0.08);
+  border-radius: 4px 4px 0px 0px;
 }
 
 .PassEye-icon {
-    position: absolute;
-    top: 50%;
-    left: 40%;
-    transform: translateY(50%);
-    cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translateY(50%);
+  cursor: pointer;
 }
 
 /* End PassWord input */
@@ -124,52 +120,50 @@
 /* PassWord confirm input */
 
 .TextfieldPassCf-Register {
-    position: absolute;
-    width: 443px;
-    height: 115px;
-    left: 111px;
-    top: 413px;
+  position: absolute;
+  width: 443px;
+  height: 115px;
+  left: 111px;
+  top: 413px;
 }
 
 .LabelPassCf-Register {
-    position: absolute;
-    text-align: left;
-    left: 0;
-    top: calc(50% - 24px/2 - 26px);
-    right: 20%;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
+  position: absolute;
+  text-align: left;
+  left: 0;
+  top: calc(50% - 24px / 2 - 26px);
+  right: 20%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
 
-    letter-spacing: 0.135px;
+  letter-spacing: 0.135px;
 
-
-    color: rgba(0, 0, 0, 0.6);
-
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .InputFieldPassCf-Register {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 16px 12px 14px 14px;
-    width: 443px;
-    height: 54px;
-    background: rgba(33, 33, 33, 0.08);
-    border-radius: 4px 4px 0px 0px;
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 12px 14px 14px;
+  width: 443px;
+  height: 54px;
+  background: rgba(33, 33, 33, 0.08);
+  border-radius: 4px 4px 0px 0px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
 }
 
 .PassConfirmEye-icon {
-    position: absolute;
-    left: 90%;
-    transform: translateY(50%);
-    cursor: pointer;
+  position: absolute;
+  left: 90%;
+  transform: translateY(50%);
+  cursor: pointer;
 }
 
 /* End PassWord confirm input */
@@ -177,41 +171,39 @@
 /* Name input */
 
 .TextfieldName-Register {
-    position: absolute;
-    width: 443px;
-    height: 115px;
-    left: 758px;
-    top: 178px;
-
+  position: absolute;
+  width: 443px;
+  height: 115px;
+  left: 758px;
+  top: 178px;
 }
 
 .LabelName-Register {
-    position: absolute;
-    left: 0;
-    top: calc(50% - 24px/2 - 26px);
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
-    letter-spacing: 0.135px;
-    color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  left: 0;
+  top: calc(50% - 24px / 2 - 26px);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.135px;
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .InputFieldName-Register {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 16px 12px 14px 14px;
-    width: 443px;
-    height: 54px;
-    background: rgba(33, 33, 33, 0.08);
-    border-radius: 4px 4px 0px 0px;
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 12px 14px 14px;
+  width: 443px;
+  height: 54px;
+  background: rgba(33, 33, 33, 0.08);
+  border-radius: 4px 4px 0px 0px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
 }
 
 /* End Name input */
@@ -219,40 +211,40 @@
 /* Phone input */
 
 .TextfieldPhone-Register {
-    position: absolute;
-    width: 443px;
-    height: 115px;
-    left: 758px;
-    top: 294px;
+  position: absolute;
+  width: 443px;
+  height: 115px;
+  left: 758px;
+  top: 294px;
 }
 
 .LabelPhone-Register {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    top: calc(40% - 24px/2 - 26px);
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
-    letter-spacing: 0.135px;
-    color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: calc(40% - 24px / 2 - 26px);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.135px;
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .InputFieldPhone-Register {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 16px 12px 14px 14px;
-    width: 443px;
-    height: 54px;
-    background: rgba(33, 33, 33, 0.08);
-    border-radius: 4px 4px 0px 0px;
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 12px 14px 14px;
+  width: 443px;
+  height: 54px;
+  background: rgba(33, 33, 33, 0.08);
+  border-radius: 4px 4px 0px 0px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
 }
 
 /*End Phone input */
@@ -260,155 +252,151 @@
 /* Gender checkbox */
 
 .TextfieldGender-Register {
-    position: absolute;
-    width: 443px;
-    height: 115px;
-    left: 758px;
-    top: 413px;
+  position: absolute;
+  width: 443px;
+  height: 115px;
+  left: 758px;
+  top: 413px;
 }
 
 .LabelGender-Register {
-    position: absolute;
-    left: 1.53%;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
-    letter-spacing: 0.135px;
-    color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  left: 1.53%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.135px;
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .Button-Gender {
-    position: absolute;
-    left: 20%;
-
+  position: absolute;
+  left: 20%;
 }
 
 .Text-btn {
-    left: 1.53%;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
-    letter-spacing: 0.135px;
-    color: rgba(0, 0, 0, 0.6);
+  left: 1.53%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.135px;
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .radio-input {
-    display: flex;
-    flex-direction: row;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 16px;
-    font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .radio-input input[type="radio"] {
-    display: none;
+  display: none;
 }
 
 .radio-input label {
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    border: 1px solid #ccc;
-    background-color: rgba(33, 33, 33, 0.08);
-    border-radius: 5px;
-    margin-right: 12px;
-    cursor: pointer;
-    position: relative;
-    transition: all 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: rgba(33, 33, 33, 0.08);
+  border-radius: 5px;
+  margin-right: 12px;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s ease-in-out;
 }
 
 .radio-input label:before {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: 0;
-    transform: translate(-50%, -50%);
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: #fff;
-    border: 2px solid #ccc;
-    transition: all 0.3s ease-in-out;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 2px solid #ccc;
+  transition: all 0.3s ease-in-out;
 }
 
-.radio-input input[type="radio"]:checked+label:before {
-    background-color: rgb(231, 178, 221);
-    top: 0;
+.radio-input input[type="radio"]:checked + label:before {
+  background-color: rgb(231, 178, 221);
+  top: 0;
 }
 
-.radio-input input[type="radio"]:checked+label {
-    background-color: #6200EE;
-    ;
-    color: #fff;
-    border-color: rgb(129, 235, 129);
-    animation: radio-translate 0.5s ease-in-out;
+.radio-input input[type="radio"]:checked + label {
+  background-color: #6200ee;
+  color: #fff;
+  border-color: rgb(129, 235, 129);
+  animation: radio-translate 0.5s ease-in-out;
 }
 
 @keyframes radio-translate {
-    0% {
-        transform: translateX(0);
-    }
+  0% {
+    transform: translateX(0);
+  }
 
-    50% {
-        transform: translateY(-10px);
-    }
+  50% {
+    transform: translateY(-10px);
+  }
 
-    100% {
-        transform: translateX(0);
-    }
+  100% {
+    transform: translateX(0);
+  }
 }
 
 /* End Gender checkbox */
 
 /* Submit Button  */
 
-
 .TextfieldButton-Submit {
-    position: absolute;
-    width: 443px;
-    height: 115px;
-    left: 758px;
-    top: 500px;
+  position: absolute;
+  width: 443px;
+  height: 115px;
+  left: 758px;
+  top: 500px;
 }
 
 .submit-button {
-    position: absolute;
-    left: 1.53%;
-
+  position: absolute;
+  left: 1.53%;
 }
 
 .comic-button {
-    display: inline-block;
-    padding: 12px 20px;
-    font-size: 15px;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-    color: #6200EE;
-    ;
-    background-color: #fff;
-    border: 2px solid #000;
-    border-radius: 10px;
-    box-shadow: 5px 5px 0px #000;
-    transition: all 0.3s ease;
+  display: inline-block;
+  padding: 12px 20px;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #6200ee;
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 10px;
+  box-shadow: 5px 5px 0px #000;
+  transition: all 0.3s ease;
 }
 
 .comic-button:hover {
-    background-color: #6200EE;
-    color: #fff;
-    border: 2px solid #ceacf8;
-    box-shadow: 5px 5px 0px #ceacf8;
+  background-color: #6200ee;
+  color: #fff;
+  border: 2px solid #ceacf8;
+  box-shadow: 5px 5px 0px #ceacf8;
 }
 
 .comic-button:active {
-    background-color: #ffc4a7;
-    box-shadow: none;
-    transform: translateY(4px);
+  background-color: #ffc4a7;
+  box-shadow: none;
+  transform: translateY(4px);
 }
 
 /* End Submit Button  */
@@ -417,7 +405,6 @@
     End Register
 */
 
-
 /*
     Login
 */
@@ -425,40 +412,40 @@
 /* Login Email */
 
 .EmailTextfield-Login {
-    position: absolute;
-    width: 443px;
-    height: 115px;
-    left: 438px;
-    top: 165px;
+  position: absolute;
+  width: 443px;
+  height: 115px;
+  left: 438px;
+  top: 165px;
 }
 
 .LabelEmail-Login {
-    position: absolute;
-    height: 24px;
-    left: 0;
-    top: calc(50% - 24px/2 - 26px);
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
-    letter-spacing: 0.135px;
-    color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  height: 24px;
+  left: 0;
+  top: calc(50% - 24px / 2 - 26px);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.135px;
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .InputFieldEmail-Login {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 16px 12px 14px 14px;
-    width: 443px;
-    height: 54px;
-    background: rgba(33, 33, 33, 0.08);
-    border-radius: 4px 4px 0px 0px;
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 12px 14px 14px;
+  width: 443px;
+  height: 54px;
+  background: rgba(33, 33, 33, 0.08);
+  border-radius: 4px 4px 0px 0px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
 }
 
 /* End Login Email */
@@ -466,58 +453,57 @@
 /* Login Passwork */
 
 .LabelPass-Login {
-    position: absolute;
-    height: 24px;
-    left: 438px;
-    top: calc(50% - 24px/2 - 26px);
+  position: absolute;
+  height: 24px;
+  left: 438px;
+  top: calc(50% - 24px / 2 - 26px);
 
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
 
-    letter-spacing: 0.135px;
+  letter-spacing: 0.135px;
 
-
-    color: rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .InputFieldPass-Login {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 16px 12px 14px 14px;
-    position: absolute;
-    width: 443px;
-    height: 54px;
-    left: 438px;
-    top: 334px;
-    background: rgba(33, 33, 33, 0.08);
-    border-radius: 4px 4px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 12px 14px 14px;
+  position: absolute;
+  width: 443px;
+  height: 54px;
+  left: 438px;
+  top: 334px;
+  background: rgba(33, 33, 33, 0.08);
+  border-radius: 4px 4px 0px 0px;
 }
 
 .PassEye-Login {
-    position: absolute;
-    top: 50%;
-    left: 66%;
-    transform: translateY(50%);
-    cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 66%;
+  transform: translateY(50%);
+  cursor: pointer;
 }
 
 .TextLabel-Login {
-    position: absolute;
-    height: 24px;
-    left: 47.81%;
-    right: 42.73%;
-    top: calc(40% - 24px/2 + 161px);
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
-    letter-spacing: 0.135px;
-    color: rgba(21, 42, 235, 0.8);
+  position: absolute;
+  height: 24px;
+  left: 47.81%;
+  right: 42.73%;
+  top: calc(40% - 24px / 2 + 161px);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.135px;
+  color: rgba(21, 42, 235, 0.8);
 }
 
 /* End Login Passwork */
@@ -525,259 +511,280 @@
 /* Button Login  */
 
 .btn {
-    --fancy-button-gradient-0: #8d49fd;
-    --fancy-button-gradient-50: #7f56f3;
-    --fancy-button-gradient-100: #5691f3;
-    --fancy-button-inner-shadow-top: rgba(233, 209, 255, 0.2);
-    --fancy-button-inner-shadow-top-lg: rgba(9, 12, 60, 0.1);
-    --fancy-button-inner-shadow-bottom: rgba(137, 222, 246, 0.3);
-    --fancy-button-shine-top: #e9d1ff;
-    --fancy-button-shine-bottom: #adfff9;
-    font-family: 'Poppins';
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 21px;
-    text-shadow: 0px 0.5px 0.5px rgba(0, 0, 0, 0.2);
-    padding: 0;
-    margin: 0;
-    width: 121px;
-    height: 48px;
-    left: 145px;
-    top: -8px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    border: none;
-    outline: none;
-    overflow: hidden;
-    position: absolute;
-    cursor: pointer;
-    z-index: 1;
-    border-radius: 25px;
-    color: #fff;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(var(--fancy-button-gradient-0)), color-stop(50%, var(--fancy-button-gradient-50)), to(var(--fancy-button-gradient-100)));
-    background-image: linear-gradient(to bottom, var(--fancy-button-gradient-0) 0%, var(--fancy-button-gradient-50) 50%, var(--fancy-button-gradient-100) 100%);
-    -webkit-box-shadow: 0px 4px 12px rgba(9, 12, 60, 0.15), 0px 2px 8px rgba(9, 12, 60, 0.15), 0px 1px 3px var(--fancy-button-inner-shadow-top-lg), inset 0px 1px 1px var(--fancy-button-inner-shadow-top), inset 0px -1px 3px var(--fancy-button-inner-shadow-bottom);
-    box-shadow: 0px 4px 12px rgba(9, 12, 60, 0.15), 0px 2px 8px rgba(9, 12, 60, 0.15), 0px 1px 3px var(--fancy-button-inner-shadow-top-lg), inset 0px 1px 1px var(--fancy-button-inner-shadow-top), inset 0px -1px 3px var(--fancy-button-inner-shadow-bottom);
+  --fancy-button-gradient-0: #8d49fd;
+  --fancy-button-gradient-50: #7f56f3;
+  --fancy-button-gradient-100: #5691f3;
+  --fancy-button-inner-shadow-top: rgba(233, 209, 255, 0.2);
+  --fancy-button-inner-shadow-top-lg: rgba(9, 12, 60, 0.1);
+  --fancy-button-inner-shadow-bottom: rgba(137, 222, 246, 0.3);
+  --fancy-button-shine-top: #e9d1ff;
+  --fancy-button-shine-bottom: #adfff9;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 21px;
+  text-shadow: 0px 0.5px 0.5px rgba(0, 0, 0, 0.2);
+  padding: 0;
+  margin: 0;
+  width: 121px;
+  height: 48px;
+  left: 145px;
+  top: -8px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  outline: none;
+  overflow: hidden;
+  position: absolute;
+  cursor: pointer;
+  z-index: 1;
+  border-radius: 25px;
+  color: #fff;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(var(--fancy-button-gradient-0)),
+    color-stop(50%, var(--fancy-button-gradient-50)),
+    to(var(--fancy-button-gradient-100))
+  );
+  background-image: linear-gradient(
+    to bottom,
+    var(--fancy-button-gradient-0) 0%,
+    var(--fancy-button-gradient-50) 50%,
+    var(--fancy-button-gradient-100) 100%
+  );
+  -webkit-box-shadow: 0px 4px 12px rgba(9, 12, 60, 0.15),
+    0px 2px 8px rgba(9, 12, 60, 0.15),
+    0px 1px 3px var(--fancy-button-inner-shadow-top-lg),
+    inset 0px 1px 1px var(--fancy-button-inner-shadow-top),
+    inset 0px -1px 3px var(--fancy-button-inner-shadow-bottom);
+  box-shadow: 0px 4px 12px rgba(9, 12, 60, 0.15),
+    0px 2px 8px rgba(9, 12, 60, 0.15),
+    0px 1px 3px var(--fancy-button-inner-shadow-top-lg),
+    inset 0px 1px 1px var(--fancy-button-inner-shadow-top),
+    inset 0px -1px 3px var(--fancy-button-inner-shadow-bottom);
 }
 
 .btn:before,
 .btn:after {
-    content: '';
-    position: absolute;
-    border-radius: inherit;
-    will-change: transform;
+  content: "";
+  position: absolute;
+  border-radius: inherit;
+  will-change: transform;
 }
 
 .btn:before {
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    transform: translateX(-50%);
-    background-color: var(--fancy-button-shine-top);
-    width: 96px;
-    height: 6px;
-    top: -3px;
-    opacity: 0.6;
-    -webkit-filter: blur(6px);
-    filter: blur(6px);
-    -webkit-transition: opacity 0.25s;
-    transition: opacity 0.25s;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: var(--fancy-button-shine-top);
+  width: 96px;
+  height: 6px;
+  top: -3px;
+  opacity: 0.6;
+  -webkit-filter: blur(6px);
+  filter: blur(6px);
+  -webkit-transition: opacity 0.25s;
+  transition: opacity 0.25s;
 }
 
 .btn:after {
-    inset: 0;
-    background-size: cover;
-    z-index: 2;
-    opacity: 0.3;
-    mix-blend-mode: overlay;
-    pointer-events: none;
+  inset: 0;
+  background-size: cover;
+  z-index: 2;
+  opacity: 0.3;
+  mix-blend-mode: overlay;
+  pointer-events: none;
 }
 
 .btn span {
-    display: block;
-    padding: 12px 24px;
-    border-radius: inherit;
-    overflow: hidden;
-    position: relative;
-    background-image: linear-gradient(to bottom, var(--fancy-button-shine-top), transparent 8px);
-    background-position: 0 -6px;
-    background-repeat: no-repeat;
-    z-index: 1;
+  display: block;
+  padding: 12px 24px;
+  border-radius: inherit;
+  overflow: hidden;
+  position: relative;
+  background-image: linear-gradient(
+    to bottom,
+    var(--fancy-button-shine-top),
+    transparent 8px
+  );
+  background-position: 0 -6px;
+  background-repeat: no-repeat;
+  z-index: 1;
 }
 
 .btn span:before,
 .btn span:after {
-    content: '';
-    position: absolute;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    transform: translateX(-50%);
-    border-radius: 50%;
-    background-color: var(--fancy-button-shine-bottom);
-    -webkit-transition: opacity 0.25s, -webkit-transform 0.25s;
-    transition: opacity 0.25s, -webkit-transform 0.25s;
-    transition: opacity 0.25s, transform 0.25s;
-    transition: opacity 0.25s, transform 0.25s, -webkit-transform 0.25s;
-    will-change: transform;
+  content: "";
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  border-radius: 50%;
+  background-color: var(--fancy-button-shine-bottom);
+  -webkit-transition: opacity 0.25s, -webkit-transform 0.25s;
+  transition: opacity 0.25s, -webkit-transform 0.25s;
+  transition: opacity 0.25s, transform 0.25s;
+  transition: opacity 0.25s, transform 0.25s, -webkit-transform 0.25s;
+  will-change: transform;
 }
 
 .btn span:before {
-    width: 92px;
-    height: 8px;
-    bottom: -4px;
-    opacity: 0.75;
-    -webkit-filter: blur(6px);
-    filter: blur(6px);
+  width: 92px;
+  height: 8px;
+  bottom: -4px;
+  opacity: 0.75;
+  -webkit-filter: blur(6px);
+  filter: blur(6px);
 }
 
 .btn span:after {
-    width: 112px;
-    height: 1px;
-    bottom: 0;
-    opacity: 0.9;
-    -webkit-filter: blur(1px);
-    filter: blur(1px);
+  width: 112px;
+  height: 1px;
+  bottom: 0;
+  opacity: 0.9;
+  -webkit-filter: blur(1px);
+  filter: blur(1px);
 }
 
 .btn:hover span:before {
-    opacity: 0.8;
+  opacity: 0.8;
 }
 
 .btn:hover span:before {
-    -webkit-transform: translateX(-50%) scale(1.25);
-    -ms-transform: translateX(-50%) scale(1.25);
-    transform: translateX(-50%) scale(1.25);
+  -webkit-transform: translateX(-50%) scale(1.25);
+  -ms-transform: translateX(-50%) scale(1.25);
+  transform: translateX(-50%) scale(1.25);
 }
 
 .btn:hover span:after {
-    opacity: 1;
+  opacity: 1;
 }
 
 /* Button Login Facebook && Text Login Facebook */
 
 .ButtonLoginFacebook {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 31.4953px;
-    gap: 31.5px;
-    position: absolute;
-    width: 442px;
-    height: 63px;
-    left: 439px;
-    top: 480px;
-    /* background: #1877F2; */
-    /* box-shadow: 0px 38.4869px 71.4756px rgba(0, 0, 0, 0.07); */
-    border-radius: 20.9968px;
-
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 31.4953px;
+  gap: 31.5px;
+  position: absolute;
+  width: 442px;
+  height: 63px;
+  left: 439px;
+  top: 480px;
+  /* background: #1877F2; */
+  /* box-shadow: 0px 38.4869px 71.4756px rgba(0, 0, 0, 0.07); */
+  border-radius: 20.9968px;
 }
 
 .FacebookIcon-Login {
-    position: absolute;
-    width: 43px;
-    height: 41px;
-    left: calc(50% - 43px/2 - 139.5px);
-    color: white;
-    bottom: 20%;
+  position: absolute;
+  width: 43px;
+  height: 41px;
+  left: calc(50% - 43px / 2 - 139.5px);
+  color: white;
+  bottom: 20%;
 }
 
 .FacebookText-Login {
-    position: absolute;
-    width: 487.13px;
-    height: 48.29px;
-    left: 0;
+  position: absolute;
+  width: 487.13px;
+  height: 48.29px;
+  left: 0;
 
-    font-family: 'ABeeZee';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
+  font-family: "ABeeZee";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
 
-    color: #fff;
-    top: 30%;
-
+  color: #fff;
+  top: 30%;
 }
 
 /* End Button Login Facebook && Text Login Facebook */
-
 
 /*
     Profile
 */
 
 .ContentProfile {
-    position: absolute;
-    width: 575px;
-    height: 74px;
-    left: 0px;
-    top: 47px;
-    background: linear-gradient(180deg, #F21299 0%, #1B02B5 100%);
+  position: absolute;
+  width: 575px;
+  height: 74px;
+  left: 0px;
+  top: 47px;
+  background: linear-gradient(180deg, #f21299 0%, #1b02b5 100%);
 }
 
 .TextContent-Profile {
-    position: absolute;
-    width: 121px;
-    height: 48px;
-    left: 34px;
-    top: 10px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 48px;
+  position: absolute;
+  width: 121px;
+  height: 48px;
+  left: 34px;
+  top: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
 
-    color: #FFFEFE;
+  color: #fffefe;
 }
 
 .ImportFile-img {
-    position: absolute;
-    width: 225px;
-    height: 225px;
-    left: 34px;
-    top: 170px;
-    /* background-image: url(./download.png/pngtree-couple-boy-cute-avatar-image_1153281.jpg); */
-    background-size: cover;
+  position: absolute;
+  width: 225px;
+  height: 225px;
+  left: 34px;
+  top: 170px;
+  /* background-image: url(./download.png/pngtree-couple-boy-cute-avatar-image_1153281.jpg); */
+  background-size: cover;
 }
 
 /* Profile Email */
 
 .TextfieldEmail-Profile {
-    position: absolute;
-    width: 443px;
-    height: 115px;
-    left: 287px;
-    top: 144px;
+  position: absolute;
+  width: 443px;
+  height: 115px;
+  left: 287px;
+  top: 144px;
 }
 
 .LabelEmail-Profile {
-    position: absolute;
-    left: 0;
-    top: calc(50% - 24px/2 - 26px);
-    bottom: 68.7%;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
-    letter-spacing: 0.135px;
-    color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  left: 0;
+  top: calc(50% - 24px / 2 - 26px);
+  bottom: 68.7%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.135px;
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .InputFieldEmail-Profile {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 16px 12px 14px 14px;
-    width: 443px;
-    height: 54px;
-    background: rgba(33, 33, 33, 0.08);
-    border-radius: 4px 4px 0px 0px;
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 12px 14px 14px;
+  width: 443px;
+  height: 54px;
+  background: rgba(33, 33, 33, 0.08);
+  border-radius: 4px 4px 0px 0px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
 }
 
 /* End Profile Email */
@@ -785,41 +792,40 @@
 /* Profile Phone */
 
 .TextfieldPhone-Profile {
-    position: absolute;
-    width: 443px;
-    height: 115px;
-    left: 287px;
-    top: 264px;
-
+  position: absolute;
+  width: 443px;
+  height: 115px;
+  left: 287px;
+  top: 264px;
 }
 
 .LabelPhone-Profile {
-    position: absolute;
-    left: 0;
-    top: calc(50% - 24px/2 - 26px);
-    bottom: 68.7%;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
-    letter-spacing: 0.135px;
-    color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  left: 0;
+  top: calc(50% - 24px / 2 - 26px);
+  bottom: 68.7%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.135px;
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .InputFieldPhone-Profile {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 16px 12px 14px 14px;
-    width: 443px;
-    height: 54px;
-    background: rgba(33, 33, 33, 0.08);
-    border-radius: 4px 4px 0px 0px;
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 12px 14px 14px;
+  width: 443px;
+  height: 54px;
+  background: rgba(33, 33, 33, 0.08);
+  border-radius: 4px 4px 0px 0px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
 }
 
 /* End Profile Phone */
@@ -827,213 +833,204 @@
 /* Profile Name */
 
 .TextfieldName-Profile {
-    position: absolute;
-    width: 443px;
-    height: 115px;
-    left: 823px;
-    top: 140px;
+  position: absolute;
+  width: 443px;
+  height: 115px;
+  left: 823px;
+  top: 140px;
 }
 
 .LabelName-Profile {
-    position: absolute;
-    left: 0;
-    top: calc(50% - 24px/2 - 26px);
-    bottom: 68.7%;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
-    letter-spacing: 0.135px;
-    color: rgba(0, 0, 0, 0.6);
-
+  position: absolute;
+  left: 0;
+  top: calc(50% - 24px / 2 - 26px);
+  bottom: 68.7%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.135px;
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .InputFieldName-Profile {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 16px 12px 14px 14px;
-    width: 443px;
-    height: 54px;
-    background: rgba(33, 33, 33, 0.08);
-    border-radius: 4px 4px 0px 0px;
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 12px 14px 14px;
+  width: 443px;
+  height: 54px;
+  background: rgba(33, 33, 33, 0.08);
+  border-radius: 4px 4px 0px 0px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
 }
 
 /* End Profile Name */
 
-
 /* Profile Password */
 
 .TextfieldPass-Profile {
-    position: absolute;
-    width: 443px;
-    height: 115px;
-    left: 823px;
-    top: 259px;
+  position: absolute;
+  width: 443px;
+  height: 115px;
+  left: 823px;
+  top: 259px;
 }
 
 .LabelPass-Profile {
-    position: absolute;
-    left: 0;
-    top: calc(50% - 24px/2 - 26px);
-    bottom: 76.62%;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
-    letter-spacing: 0.135px;
-    color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  left: 0;
+  top: calc(50% - 24px / 2 - 26px);
+  bottom: 76.62%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.135px;
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .InputFieldPass-Profile {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 16px 12px 14px 14px;
-    width: 443px;
-    height: 54px;
-    background: rgba(33, 33, 33, 0.08);
-    border-radius: 4px 4px 0px 0px;
-    flex: none;
-    order: 0;
-    align-self: stretch;
-
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 12px 14px 14px;
+  width: 443px;
+  height: 54px;
+  background: rgba(33, 33, 33, 0.08);
+  border-radius: 4px 4px 0px 0px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
 }
 
 /* End Profile Password */
 
 .TextfieldGender-Profile {
-    position: absolute;
-    width: 443px;
-    height: 115px;
-    left: 758px;
-    top: 413px;
+  position: absolute;
+  width: 443px;
+  height: 115px;
+  left: 758px;
+  top: 413px;
 }
 
 .LabelGender-Profile {
-    position: absolute;
-    left: 80px;
-    top: -40px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
-    letter-spacing: 0.135px;
-    color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  left: 80px;
+  top: -40px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.135px;
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .ButtonGender-Profile {
-    position: absolute;
-    left: 40%;
-    top: -40px;
+  position: absolute;
+  left: 40%;
+  top: -40px;
 }
 
 .ButtonUpdate-Profile {
-    position: absolute;
-    left: 55%;
-    top: -20px;
+  position: absolute;
+  left: 55%;
+  top: -20px;
 }
 
 .Line-Profile {
-    position: absolute;
-    width: 1212.03px;
-    height: 0px;
-    left: 54px;
-    top: 442px;
-    border: 1px solid #DEDDDC;
-    transform: rotate(0.37deg);
+  position: absolute;
+  width: 1212.03px;
+  height: 0px;
+  left: 54px;
+  top: 442px;
+  border: 1px solid #dedddc;
+  transform: rotate(0.37deg);
 }
 
 .Line1-Profile {
-    position: absolute;
-    width: 62px;
-    height: 0px;
-    left: 51px;
-    top: 482px;
-    border: 1px solid #DEDDDC;
-    transform: rotate(90deg);
+  position: absolute;
+  width: 62px;
+  height: 0px;
+  left: 51px;
+  top: 482px;
+  border: 1px solid #dedddc;
+  transform: rotate(90deg);
 }
 
 .Line2-Profile {
-    position: absolute;
-    width: 62px;
-    height: 0px;
-    left: 328px;
-    top: 482px;
-    border: 1px solid #DEDDDC;
-    transform: rotate(90deg);
-
+  position: absolute;
+  width: 62px;
+  height: 0px;
+  left: 328px;
+  top: 482px;
+  border: 1px solid #dedddc;
+  transform: rotate(90deg);
 }
 
 .Line3-Profile {
-    position: absolute;
-    width: 62px;
-    height: 0px;
-    left: 616px;
-    top: 482px;
-    border: 1px solid #DEDDDC;
-    transform: rotate(90deg);
+  position: absolute;
+  width: 62px;
+  height: 0px;
+  left: 616px;
+  top: 482px;
+  border: 1px solid #dedddc;
+  transform: rotate(90deg);
 }
 
 .Line4-Profile {
-    position: absolute;
-    width: 277px;
-    height: 0px;
-    left: 81px;
-    top: 514px;
-    border: 1px solid #DEDDDC;
-    transform: rotate(0.01deg);
-
+  position: absolute;
+  width: 277px;
+  height: 0px;
+  left: 81px;
+  top: 514px;
+  border: 1px solid #dedddc;
+  transform: rotate(0.01deg);
 }
 
 .Line5-Profile {
-    position: absolute;
-    width: 320px;
-    height: 0px;
-    left: 328px;
-    top: 514px;
-    border: 1px solid #DEDDDC;
-
+  position: absolute;
+  width: 320px;
+  height: 0px;
+  left: 328px;
+  top: 514px;
+  border: 1px solid #dedddc;
 }
 .Order {
-    position: absolute;
-width: 200px;
-height: 39px;
-left: 113px;
-top: 465px;
+  position: absolute;
+  width: 200px;
+  height: 39px;
+  left: 113px;
+  top: 465px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 39px;
-/* identical to box height */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
 
-
-color: #DD2AED;
+  color: #dd2aed;
 }
 .FaVourite {
-    position: absolute;
-width: 200px;
-height: 39px;
-left: 350px;
-top: 465px;
+  position: absolute;
+  width: 200px;
+  height: 39px;
+  left: 350px;
+  top: 465px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 39px;
-/* identical to box height */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
 
-
-color: #000000;
-
+  color: #000000;
 }

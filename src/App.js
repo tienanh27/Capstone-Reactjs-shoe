@@ -10,6 +10,7 @@ import { useEffect } from "react";
 import { updateUserInfo } from "./store/authSlice";
 import userApi from "./services/userApi";
 import ProductDetail from "./ProductDetail";
+import Cart from "./Cart";
 
 function App() {
   const dispatch = useDispatch();
@@ -36,6 +37,14 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/product/:id" element={<ProductDetail />} />
         <Route path="/register" element={<Register />} />
+        <Route
+          path="/cart"
+          element={
+            <Protected>
+              <Cart />
+            </Protected>
+          }
+        />
         <Route path="/login" element={<Login />} />
         <Route
           path="/info"

@@ -2,7 +2,7 @@ import axios from "axios";
 // import { ErrorPayload } from "vite/types/hmrPayload";
 
 const axiosClient = axios.create({
-    baseURL: 'https://shop.cyberlearn.vn',
+  baseURL: "https://shop.cyberlearn.vn",
   headers: {
     "Content-Type": "application/json",
   },
@@ -10,7 +10,7 @@ const axiosClient = axios.create({
 
 axiosClient.interceptors.request.use(
   (config) => {
-      const token = localStorage.getItem("token")
+    const token = localStorage.getItem("token");
     if (token) {
       config.headers["Authorization"] = `Bearer ${token}`;
     }
@@ -27,13 +27,14 @@ axiosClient.interceptors.response.use(
   },
   async (err) => {
     const originalConfig = err.config;
-
     if (err.response) {
       // Access Token was expired
       if (err.response.status === 401 && !originalConfig._retry) {
         originalConfig._retry = true;
+        // localStorage.removeItem("token");
+
         // localStorage.clear()
-        // login 
+        // login
         try {
           //   const rs = await refreshToken();
           //   const { accessToken } = rs.data;

@@ -2,14 +2,14 @@ import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 import "./layout.css";
-const Layout = ({ children }) => {
+const Layout = ({ children, disableFooter = false }) => {
   return (
     <>
       <Header />
 
       <main>{children}</main>
 
-      <Footer />
+      {!disableFooter && <Footer />}
     </>
   );
 };
