@@ -30,7 +30,7 @@ const menus = [
 ];
 const Footer = () => {
   return (
-    <footer className="py-5">
+    <footer className="pt-5">
       <ul className="nav container mx-auto row row-cols-3 g-5">
         {menus?.map((item) => (
           <li key={item?.title} className="col text-start footer__col">
@@ -47,6 +47,10 @@ const Footer = () => {
           </li>
         ))}
       </ul>
+      <p className="footer__copyright">
+        © 2022 Cybersoft All Rights Reserved | Design Theme by Tien Anh x
+        ThaiBao.
+      </p>
     </footer>
   );
 };

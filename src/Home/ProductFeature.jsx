@@ -1,8 +1,5 @@
-import React, { useEffect, useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import ProductCard from "../ProductList/ProductCard";
-import userApi from "../services/userApi";
-import { setFetching } from "../store/productSlice";
+import React from "react";
+import { useSelector } from "react-redux";
 import ProductList from "../ProductList";
 
 const ProductFeature = () => {

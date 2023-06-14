@@ -17,8 +17,6 @@ const Header = () => {
   const user = useSelector((state) => state.auth.user);
   const carts = useSelector((state) => state.auth.carts);
 
-  console.log("user :>> ", user);
-  console.log("carts :>> ", carts);
   return (
     <header>
       <div className="header__top">
@@ -28,10 +26,13 @@ const Header = () => {
           </Link>
 
           <div className="d-flex text-white align-items-center gap-3">
-            <button className="d-flex header__top--search align-items-center">
+            <Link
+              to="/search"
+              className="d-flex header__top--search align-items-center text-decoration-none"
+            >
               <img src={iconSearch} alt="" />
               <span className="ms-1">Search</span>
-            </button>
+            </Link>
             <Link
               to="/cart"
               className="d-flex header__top--cart align-items-center text-decoration-none"

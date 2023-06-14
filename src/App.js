@@ -11,6 +11,7 @@ import { updateUserInfo } from "./store/authSlice";
 import userApi from "./services/userApi";
 import ProductDetail from "./ProductDetail";
 import Cart from "./Cart";
+import Search from "./Search";
 
 function App() {
   const dispatch = useDispatch();
@@ -35,6 +36,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/search" element={<Search />} />
         <Route path="/product/:id" element={<ProductDetail />} />
         <Route path="/register" element={<Register />} />
         <Route
