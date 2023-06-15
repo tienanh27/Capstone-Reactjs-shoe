@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import productApi from "../services/productApi";
 import { setFetching, updateProductFeatures } from "../store/productSlice";
+import iconNext from "../assets/icon-next.png";
 
 const Carousel = () => {
   const products = useSelector((state) => state.products.productFeatures);
@@ -81,7 +82,7 @@ const Carousel = () => {
         data-bs-slide="prev"
       >
         <img
-          src="./images/icon-next.png"
+          src={iconNext}
           alt=""
           className="carousel__icon carousel__icon--prev"
         />
@@ -93,7 +94,7 @@ const Carousel = () => {
         data-bs-target="#myCarousel"
         data-bs-slide="next"
       >
-        <img className="carousel__icon" src="./images/icon-next.png" alt="" />
+        <img className="carousel__icon" src={iconNext} alt="" />
         <span className="visually-hidden">Next</span>
       </button>
     </div>

@@ -26,7 +26,8 @@ function App() {
         console.log(res.content);
         dispatch(updateUserInfo(res.content));
       } catch (error) {
-        console.log(error);
+        localStorage.removeItem("token");
+        dispatch(updateUserInfo(undefined));
       }
     };
     getInfo();
