@@ -144,7 +144,7 @@ export default function Profile() {
               <div className="Line3-Profile"></div>
               <div className="Line4-Profile"></div>
               <div className="Line5-Profile"></div>
-              <label className="Order">Order Hitory</label>
+              <label className="Order">Order History</label>
               <label className="FaVourite">FaVourite</label>
             </div>
             <div></div>
